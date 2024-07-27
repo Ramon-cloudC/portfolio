@@ -1,6 +1,5 @@
 
-
-const mySkills = ["Self-Taught.", "a Web Developer.", "a Free-Lancer."]
+const mySkills = ["Self-Taught.", "a Web Developer."];
 
 const animation = document.querySelector(".animation-text");
 
@@ -8,7 +7,6 @@ console.log(mySkills);
 
 let charIndex = 0;
 let skillsIndex = 0;
-
 
 const animationText = () => {
     charIndex ++;
@@ -26,8 +24,18 @@ const animationText = () => {
 
 }
 
-
 animationText()
+
+const toggleMenu = () =>{
+            const menuLinks = document.querySelector(".upper-bar");
+            menuLinks.classList.toggle("show");
+        }
+
+
+
+
+
+
 
 
 
