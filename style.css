@@ -1,0 +1,174 @@
+/* color list: #f0ece2 light gray;
+               #c7b198 brown-beige;
+               #42b883 light green;  */
+
+
+/* universal styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-family: "Share Tech", sans-serif;
+}
+
+
+/* header */
+#navbar {
+    background-color: #f0ece2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+}
+
+#navbar .my-name {
+    display: flex;
+    padding-right: 860px;
+    align-items: center;
+}
+
+#navbar .my-name .letter {
+    background-color: #c7b198;
+    text-align: center;
+    padding-top: 5px;
+    border: 1px solid #c7b198;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#navbar .my-name span {
+    padding-left: 4px;
+}
+
+#navbar ul {
+    display: flex;
+    gap: 5vw;
+
+}
+
+#navbar ul li {    
+    list-style: none;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* main content */
+
+#main-container .image-container img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 1px 0 4px ;
+}
+
+#main-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.grid-container {
+    width: 300px;
+    height: 100px;
+    margin-top: 140px;
+    border-radius: 4px;
+    border: 1px solid #f0ece2;
+    background-color: #f0ece2;
+
+}
+
+.links-grid .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    /* gap: 3vw; */
+}
+
+.box-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #c7b198;
+    border: 1px solid #c7b198;
+    height: 5rem;
+    width: 8.5rem;
+}
+
+.box-grid .link {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* about me section */
+.about-me {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c7b198;
+    background-color: #c7b198;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.about {
+    background-image: url("WhatsApp Image 2024-07-01 at 17.45.56.jpeg");
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0ece2;
+    height: 300px;
+    display: none;
+}
+
+.about p {
+    width: 250px;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    font-weight: 600;
+
+}
+
+/* footer */
+
+footer h2 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.languages {
+    margin-top: 40px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f0ece2;
+
+}
+
+.skills {
+    width: 100px;
+    height: 100px;
+}
